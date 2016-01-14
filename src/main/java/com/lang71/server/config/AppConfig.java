@@ -35,9 +35,9 @@ public class AppConfig {
     public DataSource dataSource() {
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass(org.postgresql.Driver.class);
-        dataSource.setUrl("jdbc:postgresql://ec2-54-247-167-90.eu-west-1.compute.amazonaws.com:5432/d8sf1fhcn7r9md");
-        dataSource.setUsername("gautslychxipec");
-        dataSource.setPassword("EDs74vG06E2kx68NTZqAlxb24J");
+        dataSource.setUrl("jdbc:postgresql://ec2-107-21-120-109.compute-1.amazonaws.com:5432/daad576qinl9if?sslmode=require");
+        dataSource.setUsername("nbmnrqqxvvglyn");
+        dataSource.setPassword("K8c_aSZtcXV6c-FwesLrs3JULE");
         return dataSource;
     }
 
